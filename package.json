@@ -1,0 +1,16 @@
+{
+  "name": "@seeseost/sample2",
+  "author": "Peter Seese",
+  "version": "1.0.0",
+  "description": "Sample project",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "rm -rf dist && tsc"
+  },
+  "license": "ISC",
+  "repository": "https://github.com/seese/simple-ts2",
+  "devDependencies": {
+    "typescript": "^2.4.2"
+  }
+}
